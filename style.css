@@ -18,6 +18,19 @@ header{
 
 }
 
-header,form{
+header,
+form{
     min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button{
+    padding: 01.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+
 }
