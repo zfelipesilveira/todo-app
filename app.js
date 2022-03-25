@@ -9,3 +9,7 @@ const todoList = document.querySelector('.todo-list');
 todoButton.addEventListener('click', addTodo);
 
 //Functions
+
+function addTodo(event){
+    console.log('hello');
+}
